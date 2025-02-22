@@ -73,10 +73,10 @@ interface IRepo {
   if (!sum) return;
 
   const oneDay = [
-    { label: '🌞 Morning', commits: morning },
-    { label: '🌆 Daytime', commits: daytime },
-    { label: '🌃 Evening', commits: evening },
-    { label: '🌙 Night', commits: night },
+    { label: '🌞 아침', commits: 아침 },
+    { label: '🌆 낮', commits: 낮 },
+    { label: '🌃 저녁', commits: 저녁 },
+    { label: '🌙 밤', commits: 밤 },
   ];
 
   const lines = oneDay.reduce((prev, cur) => {
